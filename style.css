@@ -3,7 +3,7 @@
 
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4, .icone{
     font-family: "Teko", sans-serif;
 }
 
@@ -38,7 +38,7 @@ h1,h2,h3,h4{
 }
 
 .nav-personale{
-    height: 80px;
+    height: 85px;
     width: 100%;
     background-color: var(--bianco);
     background-repeat: no-repeat;
@@ -66,49 +66,57 @@ h1,h2,h3,h4{
     color: rgb(0, 0, 0);
 }
 
-.form-control{
-    height: 30px;
-    width: 100px;
+
+.testolink2{
+    font-size: 12px;
 }
+
+
 /* INIZIO barra di ricerca iportata */
-.group {
-  display: flex;
-  line-height: 28px;
-  align-items: center;
-  position: relative;
-  max-width: 190px;
-}
+        .group {
+        display: flex;
+        line-height: 28px;
+        align-items: center;
+        position: relative;
+        max-width: 190px;
+        }
 
-.input {
-  width: 100%;
-  height: 30px;
-  line-height: 28px;
-  padding: 0 1rem;
-  padding-left: 2.5rem;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  outline: none;
-  background-color: rgb(226, 226, 226);
-  color: #0d0c22;
-  transition: 0.3s ease;
-}
+        .input {
+        width: 210px;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 2.5rem;
+        border: 2px solid transparent;
+        border-radius: 2px;
+        outline: none;
+        background-color: rgb(226, 226, 226);
+        color: #0d0c22;
+        transition: 0.3s ease;
+        }
 
-.input::placeholder {
-  color: #9e9ea7;
-}
+        .input::placeholder {
+        color: #9e9ea7;
+        }
 
-.input:focus,
-input:hover {
-  outline: none;
-  border-color: rgba(0, 48, 73, 0.4);
-  background-color: #fff;
-  box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
-}
+        .input:focus,
+        input:hover {
+        outline: none;
+        border-color: rgba(0, 48, 73, 0.4);
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
+        }
 
-.icon {
-  position: absolute;
-  left: 1rem;
-  fill: #9e9ea7;
-  width: 1rem;
-  height: 1rem;
+        .icon {
+        position: absolute;
+        left: 1rem;
+        fill: #9e9ea7;
+        width: 1rem;
+        height: 1rem;
+        }
+/* FINE barra di ricerca iportata */
+.iconeNav{
+    padding: 10px;
+    width: 40px;
+    font-size: 21px;
 }
