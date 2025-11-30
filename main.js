@@ -1,7 +1,7 @@
 let nav = document.querySelector("#nav");
 let navLink = document.querySelectorAll(".nav-link");
 let blackFridayNav = document.querySelector(".blackFridayNav")
-console.dir(blackFridayNav)
+
 
 window.addEventListener("scroll", ()=>{
 
@@ -39,7 +39,3 @@ window.addEventListener("scroll", ()=>{
         })
     }
 })
-// .blackFridayNav{
-    // color: var(--arancione);
-    // font-weight: bold;
-// }
