@@ -39,3 +39,38 @@ window.addEventListener("scroll", ()=>{
         })
     }
 })
+
+let numero1 = document.querySelector("#numero1");
+let numero2 = document.querySelector("#numero2");
+let numero3 = document.querySelector("#numero3");
+
+let contatore = 0;
+
+// let intervallo = setInterval(()=>{
+//     if(contatore<1000){
+//         contatore++
+//         numero1.innerHTML = contatore;
+//     }else{
+//         clearInterval( intervallo)
+//     }
+
+// }, 1000)
+
+function creaConteggio(tempo, numeroFine, numeroIniziale){
+    let intervallo = setInterval(()=>{
+    if(contatore<numeroFine){
+        contatore++
+        numeroIniziale.innerHTML = contatore;
+    }else{
+        clearInterval(intervallo)
+    }
+
+}, tempo)
+
+}
+
+creaConteggio(1000, 100, numero1);
+creaConteggio(1000, 100, numero2);
+creaConteggio(1000, 100, numero3);
+
+IntersectionObserver()
