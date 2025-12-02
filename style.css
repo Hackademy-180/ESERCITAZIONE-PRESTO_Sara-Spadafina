@@ -258,3 +258,200 @@ h1,h2,h3,h4, .icone{
 .numeroIncremento{
     font-size: 40px;
 }
+
+.carosello1slide1{
+    height: 600px;
+    width: 100%;
+    background: url(./media/scarpa2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello1slide2{
+    height: 600px;
+    width: 100%;
+    background: url(./media/scarpe1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello1slide3{
+    height: 600px;
+    width: 100%;
+    background: url(./media/scarpe\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello2slide1{
+    height: 600px;
+    width: 100%;
+    background: url(./media/mezzo\ busto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello2slide2{
+    height: 600px;
+    width: 100%;
+    background: url(./media/mezzo\ busto\ felpa\ arancione.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello2slide3{
+    height: 600px;
+    width: 100%;
+    background: url(./media/mezzo\ busto\ ragazza.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello3slide1{
+    height: 600px;
+    width: 100%;
+    background: url(./media/piedi\ e\ scarpe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello3slide2{
+    height: 600px;
+    width: 100%;
+    background: url(./media/caviglia\ e\ piedi1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carosello3slide3{
+    height: 600px;
+    width: 100%;
+    background: url(./media/scarpe\ e\ scatola.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* card importata da libreria esterna */
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 3.4em;
+}
+
+.card::after {
+  content: "Aggiungi al carrello";
+  padding-top: 1.25em;
+  padding-left: 83px;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background: rgb(255, 72, 0);
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  transition: all 80ms;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.card .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 1.875em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .price {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 0.625em;
+  color: #000;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card:active::after {
+  content: "Added !";
+  height: 3.125em;
+}
+
+.text {
+  max-width: 55px;
+}
+
+.image1 {
+  background: url("https://picsum.photos/351");
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image2 {
+  background: url("https://picsum.photos/352");
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image3 {
+  background: url("https://picsum.photos/353");
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image4 {
+  background: url("https://picsum.photos/354");
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* fine card importata */

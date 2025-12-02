@@ -73,4 +73,17 @@ creaConteggio(1000, 100, numero1);
 creaConteggio(1000, 100, numero2);
 creaConteggio(1000, 100, numero3);
 
-IntersectionObserver()
+// IntersectionObserver() telecamera che si accorge quando siamo arrivati ad un certo punto della pagina
+// keyword new = crea un nuovo oggetto di tipo IntersectionObserver in questo caso
+
+let guardaUtente = new IntersectionObserver( (entries)=>{
+    entries.forEach((entry)=> {
+        if(entry.isIntersecting){
+            creaConteggio(1000, 100, numero1);
+            creaConteggio(1000, 100, numero2);
+            creaConteggio(1000, 100, numero3);
+        }
+    })
+})
+
+guardaUtente.observe(numero1);
